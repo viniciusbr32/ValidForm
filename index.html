@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="/index.css">
+  <title>Validação de Formulario</title>
+</head>
+<body>  
+  <div class="container">
+    <section class="header">
+      <h2>Cadrasto de Usuario</h2>
+    </section class="header">
+
+    <form action="" id="form" class="form">
+      <div class="form-content">
+        <label for="username">Nome do Usuário</label>
+        <input type="text" id="username" placeholder="Digite o nome do usuario">
+        <p>Mensagem de erro...</p>
+      </div>
+
+      <div class="form-content">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Digite o seu email">
+        <p>Mensagem de erro...</p>
+      </div>
+
+      <div class="form-content">
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+        <p>Mensagem de erro...</p>
+      </div>
+
+      <div class="form-content">
+        <label for="password-confirmation">Confirmação de Senha</label>
+        <input type="password" id="password-confirmation" placeholder="Confirme a senha">
+        <p>Mensagem de erro...</p>
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
